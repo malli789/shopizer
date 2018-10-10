@@ -21,7 +21,7 @@
         <m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
         <jjwt.version>0.8.0</jjwt.version>
         <!-- Need to use the latest milestone in order to logon with latest FB app version -->
-        <spring-social-facebook.version>3.0.0.M3</spring-social-facebook.version>
+        <!--<spring-social-facebook.version>3.0.0.M3</spring-social-facebook.version>-->
 	</properties>
 
 	<dependencies>
@@ -176,9 +176,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>ROOT</finalName>
+		<finalName>shopizer</finalName>
 	</build>
-
-
 
 </project>
